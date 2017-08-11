@@ -1,0 +1,84 @@
+/**
+ Theme Name:   Gicas Artes
+ Theme URI:    http://example.com/themes/twenty-fifteen/
+ Description:  Gicas Artes Theme
+ Author:       Esdras
+ Author URI:   http://example.com
+ Template:     gicasartes
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  gicasartes
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ * 5.0 - Navigation
+ * 6.0 - Content
+ *   6.1 - Post Thumbnail
+ *   6.2 - Entry Header
+ *   6.3 - Entry Meta
+ *   6.4 - Entry Content
+ *   6.5 - Galleries
+ *   6.6 - Post Formats
+ *   6.7 - Post/Image/Paging Navigation
+ *   6.8 - Attachments
+ *   6.9 - Archives
+ *   6.10 - Contributor Page
+ *   6.11 - 404 Page
+ *   6.12 - Full-width
+ *   6.13 - Singular
+ *   6.14 - Comments
+ * 7.0 - Sidebar
+ *   7.1 - Widgets
+ *   7.2 - Content Sidebar Widgets
+ * 8.0 - Footer
+ * 9.0 - Featured Content
+ * 10.0 - Multisite
+ * 11.0 - Media Queries
+ * 12.0 - Print
+ * -----------------------------------------------------------------------------
+ */
+
+/*#F09ABD #ffc7ff; color: #350F06;*/
+/*body { background: #350F06; }*/
+
+.backgroundCircle {
+    width: 17px;
+    height: 17px;
+    background-color: #BEC9DB/*#7c9ac7 #8aa1a7*/;/*#ffe7ff;*/
+    /*border: 10px solid #8aa1a7;*/
+    border-radius: 47px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    z-index: -777;
+    box-shadow: -7px -7px 17px #000 inset, 7px 7px 17px black, 0 0 10px black inset;
+    display: inline-block;
+
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.backgroundCircle::after {
+    background-color: rgba(255, 255, 255, 0.3);
+    content: '';
+    height: 45%;
+    width: 17%;
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    border-radius: 50%;
+    transform: rotate(47deg);
+}
+
+a { color: #350F06; }

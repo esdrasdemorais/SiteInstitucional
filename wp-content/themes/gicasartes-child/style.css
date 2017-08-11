@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Gicas Artes Child
+ Theme URI:    http://example.com/gicasartes-child/
+ Description:  Gicas Artes Child Theme
+ Author:       Esdras
+ Author URI:   http://example.com
+ Template:     gicasartes-child
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  gicasartes-child
+*/
+body {background: /*#F09ABD*/#ffc7ff; color: #350F06;}
+.backgroundCircle {
+    width: 17px;
+    height: 17px;
+    background-color: #BEC9DB/*#7c9ac7 #8aa1a7*/;/*#ffe7ff;*/
+    /*border: 10px solid #8aa1a7;*/
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    z-index: -777;
+}
+div#content {
+    background-attachment: scroll;
+    background-image: url("/wp-content/uploads/2015/05/foto-3.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+a { color: #350F06; }

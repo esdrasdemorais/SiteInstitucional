@@ -1,0 +1,101 @@
+/**
+ Theme Name:   Gicas Artes
+ Theme URI:    http://example.com/themes/gicasartes/
+ Description:  Gicas Artes Theme
+ Author:       Esdras
+ Author URI:   http://example.com
+ Template:     gicasartes
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  gicasartes
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html { margin: 0; border: 0 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background:#F09ABD /*#ffc7ff*/;
+    color: #772C24;
+    text-shadow: 1px 1px 0 #000;
+}
+
+p, span { color: rgb(177, 17, 0); }
+
+.backgroundCircle {
+    width: 47px;
+    height: 47px;
+    background-color: #769D9C; /*#7c9ac7 #8aa1a7 #ffe7ff*/
+    border: 1px solid #8aa1a7;
+    border-radius: 47px;
+    -moz-border-radius: 47px;
+    -webkit-border-radius: 47px;
+    z-index: -777;
+    box-shadow: -7px -7px 10px #BEC9DB inset, 7px 7px 10px #BEC9DB, 0 0 7px #000 inset;
+    display: inline-block;
+    margin: 4.7px 7px 7px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.backgroundCircle::after {
+    background-color: rgba(255, 255, 255, 0.3);
+    content: '';
+    height: 45%;
+    width: 17%;
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    border-radius: 50%;
+    transform: rotate(47deg);
+}
+
+a { color: #772C24;/* #350F06*/ }
+
+div#content {
+}
+
+div#primary {
+    position: absolute;
+    background-color: rgba(177, 7, 77, 0.7);
+    padding: 17px 0;
+    margin: 7px 0 7px 3px;
+    min-width: 98%;
+    min-height: 270px;
+    border-radius: 7px;
+    border: 1px solid rgb(119, 44, 36);
+}
+
+div.facebook {
+    float: right;
+    position: relative !important;
+    width: 47px;
+    height: 47px;
+    background-color: #769D9C; /*#7c9ac7 #8aa1a7 #ffe7ff*/
+    /*border: 10px solid #8aa1a7;*/
+    border-radius: 47px;
+    -moz-border-radius: 47px;
+    -webkit-border-radius: 47px;
+    box-shadow: -7px -7px 10px #BEC9DB inset, 7px 7px 10px #000, 0 0 7px #000 inset;
+    display: inline-block;
+    margin: 7px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.facebook a {
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+div.facebook img {
+    margin-top: 5px;
+}
